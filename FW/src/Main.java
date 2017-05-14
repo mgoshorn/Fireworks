@@ -88,13 +88,13 @@ public class Main extends JPanel{
 	public static void main(String[] args) {
 		Main program = new Main();
 		program.setupGraphics();
-		fireworks.add(new Firework(0, 4000,
+		fireworks.add(new Firework(0, 3000,
 				new Burst(Color.RED, 25, 2),
 				new Burst(Color.GREEN, 40, 4),
 				new Burst(Color.BLUE, 37, 6),
 				new Burst(Color.PINK, 50, 8)));
 
-		fireworks.add(new Firework(1000, 4000, 
+		fireworks.add(new Firework(1000, 3000, 
 				new Burst(Color.BLUE, 10, 1),
 				new Burst(Color.LIGHT_GRAY, 15, 2)));
 		
